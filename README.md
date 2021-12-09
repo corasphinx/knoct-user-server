@@ -5,39 +5,8 @@
 ## REQUIREMENTS
 ### Prerequisites
 * Python3.5 and above
-* Python Django==3.0.2
-* Create environment variables
+* Python Django==3.0.2 and above
 
-
-
-## ENVIRONMENT VARIABLES
-```
-[VERSION]
-KNOCTAPI_VERSION=v1.0.0
-
-[DEV_DB]
-PRIMARY_DB=
-PRIMARY_DB_USER=
-PRIMARY_DB_USER_PASSWORD=
-PRIMARY_DB_HOST=localhost
-PRIMARY_DB_PORT=
-
-[PROD_DB]
-SECONDARY_DB=
-SECONDARY_USER=
-SECONDARY_USER_PASSWORD=
-SECONDARY_HOST=localhost
-SECONDARY_PORT=
-
-[ADMIN]
-ADMIN_NAME=
-ADMIN_EMAIL_ADDRESS=vndalila@gmail.com
-
-
-[ADMIN_SITE_CONFIGURATIONS]
-admin_site_site_header=KNOCT ADMIN PORTAL
-admin_site_site_title=Welcome to Knoct Portal
-admin_site_index_title=Knoct
 
 
 
@@ -54,9 +23,10 @@ Version:
     v1.0.0
 
 Django Version:
-    v1.9, v1.10, v1.11, v2.0, v2.1, 3.0
+    v4.0
 
 Python Version:
+    v3.10.1
     
 
 
@@ -75,7 +45,7 @@ You can see the documentation over at **Read the Docs**
 Resources
 -------------
 * https://virtualenvwrapper.readthedocs.io/en/latest/
+* https://djoser.readthedocs.io/en/latest/
 * https://docs.djangoproject.com/en/3.0/
 * https://www.django-rest-framework.org/
-* https://django-oauth-toolkit.readthedocs.io/en/latest/
-* https://django-oauth-toolkit.readthedocs.io/en/latest/rest-framework/rest-framework.html
+
