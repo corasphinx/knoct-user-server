@@ -1,0 +1,22 @@
+#login url 
+#while logging in provide username and password using a post
+# request
+POST  http://127.0.0.1:8000/auth/api/v1/token/login/
+Content-Type: application/json
+
+{
+    "username":"ndalila",
+    "password":"Nywila@!200"
+}
+
+
+###
+#register
+POST http://127.0.0.1:8000/auth/api/v1/users/ 
+Content-Type: application/json
+
+{
+    "email":"vndalila@gmail.com",
+    "username" : "ndalila",
+    "password" : "Nywila@!200"
+}
